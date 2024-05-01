@@ -1,0 +1,36 @@
+//Git initialize
+git init
+
+//Clone a repo
+git clone https_url
+
+//git add all files
+git add .
+
+//git add specific filenames
+git add filename 
+
+//git commit and move to staging area
+git commit -m "commit message"
+
+//move local changes to remote repo
+git push origin branchname
+
+//pull from remote repo
+git pull origin branchname
+
+//merge code into master
+git merge -m "message" destinationbranchname
+
+//check the commit logs 
+git log
+
+//stash the changes 
+git stash
+
+// Again bring back the latest changes
+git stash pop
+
+//git diff command
+git diff filename
+//Investigate this above command as this is not working as expected
